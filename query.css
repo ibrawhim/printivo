@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+@media screen and (max-width: 475px) {
+    html, body {
+        max-width: 420px;
+        overflow-x: hidden;
+     }
+     .flex1 {
+        display: none;
+     }
+     .firstdiv {
+      width: 100%;
+     }
+     .flex2 {
+      white-space: nowrap;
+      position: relative;
+      left: -170px;
+      }
+      .boxb {
+         display: flex;
+         flex-direction: column;
+         margin-left: 15px;
+      }
+      .box {
+         width: 380px;
+      }
+      .box img {
+         width: 380px;
+      }
+      .crown {
+         margin-left: 15px;
+      }
+      .printivo {
+         position: relative;
+         left: 8px;
+      }
+      .peeler {
+         position: relative;
+         left: -620px;
+         top: -10px;
+         white-space: nowrap;
+      }
+      .cart {
+         position: relative;
+         left: -650px;
+         top: -10px;
+      }
+      .sa {
+       font-size: 0.5em;
+      }
+      .fourthflex {
+         margin-left: 15px;
+      }
+      .fourthflex div h1 {
+         font-size: 2em;
+         margin-bottom: 50px;
+      }
+      input {
+         width: 380px;
+      }
+      .displayflex {
+         display: flex;
+         flex-direction: column;
+         margin-left: 15px;
+      }
+      .sleek {
+         position: relative;
+         top: -5px;
+      }
+      .print {
+         font-size: 0.01em;
+         width: 400px;
+      }
+      .group {
+         width: 350px;
+      }
+      .boxes {
+         display: flex;
+         flex-direction: column;
+         width: 300px;
+      }
+      .white {
+         margin-left: -20px;
+         width: 380px;
+      }
+      .popular {
+         display: flex;
+         flex-direction: column;
+         gap: 30px;
+         margin-left: 20px;
+      }
+      .mystro {
+         display: flex;
+         flex-direction: row;
+      }
+      .dove {
+         display: flex;
+         flex-direction: column;
+         position: relative;
+         left: -30px;
+         gap: 50px;
+      }
+     .another2 {
+      display: flex;
+      flex-direction: column;
+      line-height: 15px;
+     }
+     
+}
+    
